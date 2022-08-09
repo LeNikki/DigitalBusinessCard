@@ -1,0 +1,122 @@
+*{
+  font-family: Inter, sans-serif;
+  /*padding: 1em 4em;*/
+  color: white;
+  font-size: 12px;
+  font-weight: 400;
+}
+body{
+  background-color:#23252C;
+  display: flex;
+  justify-content: center;
+  padding: 3em 0;
+}
+.App{
+  background-color:#1A1B21;
+  width: 317px;
+  border-radius: 2em;
+}
+
+.profilepic{
+  width: 317px;
+  border-radius:2em 2em 0 0;
+}
+.App_components{
+  background-color:#1A1B21;
+  padding: 2em;
+}
+
+/*Components: Info, About, Interest, Footer*/
+.Info{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.name{
+ margin:0;
+ padding: 0;
+ font-size: 25px;
+ font-weight: 700;
+ 
+}
+.jobTitle{
+  margin:0;
+  padding: 0;
+  color: #F3BF99;
+}
+.website{
+  text-decoration: none;
+  margin: 1em 0;
+}
+.website:hover{
+  color:rgb(123, 164, 202);
+}
+
+.email button {
+  color:rgb(8, 22, 35);
+  width: 247px;
+  height: 15px;
+  border-radius: 0.5em;
+  border: none;
+  background-color: rgb(238, 238, 238);
+  transition-duration: 0.4s;
+}
+.email button:hover {
+  
+  background-color: rgb(123, 164, 202);
+}
+
+.email button i{
+  color:rgb(8, 22, 35);
+}
+
+.aboutTitle{
+  font-size: 21px;
+  font-weight: 700;
+}
+.Inter_title{
+  font-size: 21px;
+  font-weight: 700;
+}
+.Footer{
+  background-color: #161619;
+  height: 14vh;
+  padding: 0 3em;
+  text-align: center;
+  border-radius: 0 0 2em 2em;
+  color:#918E9B;
+}
+.Footer div{
+  padding: 1em 3em 0 3em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  color:#918E9B;
+}
+.Footer a i{
+  transition-duration: 0.4s;
+  font-size: 24px;
+}
+.Footer a i:hover{
+  color:rgb(123, 164, 202);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
